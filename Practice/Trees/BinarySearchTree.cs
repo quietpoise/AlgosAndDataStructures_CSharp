@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Practice.Trees
 {
     // Implements a generic binary search tree
-    public class BinarySearchTree
+    public partial class BinarySearchTree
     {
         public Node root;
         public Node current;
@@ -175,6 +175,7 @@ namespace Practice.Trees
                 }
             }
         }
+
     }
 
     public class Node
