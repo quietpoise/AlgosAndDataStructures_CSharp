@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Practice.FindMedianClass</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,10 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrays_Strings\DecodeWays.cs" />
-    <Compile Include="Arrays_Strings\MergeIntervalsProgram.cs" />
-    <Compile Include="Arrays_Strings\GroupAnagramsProgram.cs" />
+    <Compile Include="Arrays_Strings\FindMinDifferenceArray.cs" />
+    <Compile Include="Arrays_Strings\FindMedianInAnArray.cs" />
+    <Compile Include="Arrays_Strings\2Sum.cs" />
+    <Compile Include="Arrays_Strings\Template.cs" />
+    <Compile Include="Arrays_Strings\FindMaxMinInArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trees\BST_DFSTraversalsWithRecursion.cs" />
+    <Compile Include="Trees\BinarySearchTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
